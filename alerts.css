@@ -1,0 +1,60 @@
+.container-alerts {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-around !important;
+
+}
+
+.alert-icon i {
+  color: black;
+  border: none;
+}
+
+.alert-box {
+  padding: 30px;
+  margin-top: 5px;
+  white-space: nowrap;
+  display: block !important;
+}
+
+.alert-box.alert-warning {
+  background-color: #f9e076;
+  color: black;
+}
+
+.alert-box.alert-success {
+  background-color: #00A86B;
+  color: black;
+}
+
+.alert-box.alert-error {
+  background-color: #ff6347;
+  color: black;
+}
+
+/* The close button */
+.closebtn {
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 2em;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  right: 0px;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+  .alert-box {
+    padding: 5px;
+  }
+
+  .container-alerts {
+    margin: auto;
+  }
+}
