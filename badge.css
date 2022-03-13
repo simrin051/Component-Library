@@ -1,0 +1,136 @@
+@import url("/style.css");
+@import url("../avatar/avatar.css");
+
+:root {
+  --primary-color: #21B6A8;
+  --font-size: 13px;
+}
+
+
+.button {
+  border: none;
+  padding: 10px;
+  background-color: var(--primary-color);
+  position: relative;
+}
+
+
+
+.buttonwithbadge {
+  position: relative;
+  display: inline-block;
+}
+
+
+.iconwithbadge {
+  position: relative;
+  display: inline-block;
+}
+
+.buttonnumber {
+  border-radius: 50%;
+  position: absolute;
+  top: -3px;
+  width: 1rem;
+  text-align: center;
+  z-index: 1;
+  width: 23px;
+  height: 23px;
+  font-size: var(--font-size);
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+
+.iconbadge {
+  position: absolute;
+  top: -4px;
+  left: 16px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  font-size: var(--font-size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-badge {
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  font-size: .75em;
+  box-sizing: border-box;
+}
+
+.badge-container .avatar-lg-size~.status-badge {
+  left: 5em;
+  bottom: 0.4em;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.badge-container .avatar-md-size~.status-badge {
+  right: 2em;
+  bottom: 2.5em;
+  width: 1em;
+  height: 1em;
+}
+
+.status-badge-offline {
+  background-color: grey;
+}
+
+.status-badge-online {
+  background-color: green;
+}
+
+
+.badge-container {
+  position: relative;
+  width: fit-content;
+  box-sizing: border-box;
+
+}
+
+.status-circle {
+  color: green;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 0px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .icon-badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+
+  .icon-badge-container>div {
+    flex: 50%;
+  }
+
+  .iconbadge {
+    position: absolute;
+    top: -4px;
+    left: 5px;
+  }
+
+  .badge-container .avatar-lg-size~.status-badge {
+    left: 7em;
+  }
+
+
+  .badge-container .avatar-md-size~.status-badge {
+    left: 6em;
+    bottom: 1em;
+  }
+}
