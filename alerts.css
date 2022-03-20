@@ -1,12 +1,15 @@
 .container-alerts {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: space-around !important;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  --alert-warning: #f9e076;
+  --alert-success: #00A86B;
+  --alert-error: #ff6347;
+  --alert-text: black;
 }
 
 .alert-icon i {
-  color: black;
+  color: var(--alert-text);
   border: none;
 }
 
@@ -14,22 +17,23 @@
   padding: 30px;
   margin-top: 5px;
   white-space: nowrap;
-  display: block !important;
+  display: block;
+  width: 90vw;
 }
 
 .alert-box.alert-warning {
-  background-color: #f9e076;
-  color: black;
+  background-color: var(--alert-warning);
+  color: var(--alert-text);
 }
 
 .alert-box.alert-success {
-  background-color: #00A86B;
-  color: black;
+  background-color: var(--alert-success);
+  color: var(--alert-text);
 }
 
 .alert-box.alert-error {
-  background-color: #ff6347;
-  color: black;
+  background-color: var(--alert-error);
+  color: var(--alert-text);
 }
 
 /* The close button */
