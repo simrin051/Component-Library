@@ -5,8 +5,8 @@
 }
 
 a.plusicon {
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ a.plusicon {
 i {
     color: var(--primary-color);
     text-decoration: none;
-    border: 1px solid black;
+    border: 1px solid var(--ternary-color);
 
 }
 
@@ -29,9 +29,9 @@ i {
 }
 
 button {
-    background-color: #21B6A8;
+    background-color: var(--primary-color);
     border: none;
-    color: black !important;
+    color: var(--ternary-color) !important;
     height: 2rem;
     min-width: 6rem;
     max-width: 10rem;
@@ -46,8 +46,8 @@ a:link {
 
 .secondary-btn {
     border-style: solid;
-    border-color: #21B6A8;
-    background-color: black;
+    border-color: var(--primary-color);
+    background-color: var(--ternary-color);
     border-radius: 10px;
 }
 
@@ -61,6 +61,6 @@ a:link {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        gap: 20px;
+        gap: 1.25rem;
     }
 }
