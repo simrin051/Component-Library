@@ -1,5 +1,5 @@
 .content-container {
-    background-color: black;
+    background-color: var(--background-color);
 }
 
 .main-card-container {
@@ -26,7 +26,7 @@
 }
 
 .image-badge-container img {
-    width: 111px;
+    width: 6.938rem;
 }
 
 .text-container {
@@ -164,7 +164,6 @@
     margin-bottom: 5px;
 }
 
-
 @media only screen and (max-width: 1024px) {
     .content-display-container:nth-last-child(2) {
         display: flex;
@@ -172,7 +171,4 @@
         row-gap: 10px;
         justify-content: space-around;
     }
-
-
-
 }
