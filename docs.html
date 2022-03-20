@@ -54,30 +54,29 @@
                         Alert messages can be used to notify the user about something special: danger, success, information or warning.
                     </p>
                     <h1 class="content-title">Simple Alert</h1>
-                    <div class="content-display-container">
-                        <div class="container-alerts">
-                            <div class="alert-box alert-success">
-                                <span class="alert-icon">
-                                    <i class="fa fa-check" aria-hidden="true"></i>
-                                </span>
-                                A success alert example
-                                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-                            </div>
-                            <div class="alert-box alert-warning">
-                                <span class="alert-icon">
-                                    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-                                </span>
-                                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-                                A warning alert example
-                            </div>
-                            <div class="alert-box alert-error">
-                                <span class="alert-icon">
-                                    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-                                </span>
-                                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-                                A danger alert example
-                            </div>
+                    <div class="content-display-container container-alerts">
+                        <div class="alert-box alert-success">
+                            <span class="alert-icon">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </span>
+                            A success alert example
+                            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
                         </div>
+                        <div class="alert-box alert-warning">
+                            <span class="alert-icon">
+                                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                            </span>
+                            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                            A warning alert example
+                        </div>
+                        <div class="alert-box alert-error">
+                            <span class="alert-icon">
+                                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                            </span>
+                            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                            A danger alert example
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -133,449 +132,480 @@
                         <i class="fa fa-home fa-2x home-badge"></i>
                         <span class="iconbadge">15
                         </span>
-                    </div>
-                    <div class='badge-container'>
-                        <div class="avatar avatar-lg-size">
-                            <img src="/assets/avatars/avatar.jpg" class="img-responsive img-round" />
-                        </div>
-                        <span class='status-badge status-badge-online'>
-                        </span>
-                    </div>
-                    <div class='badge-container'>
-                        <div class="avatar avatar-md-size">
-                            <img src="/assets/avatars/avatar.jpg" class="img-responsive img-round" />
-                        </div>
-                        <span class="status-badge status-badge-offline">
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- status badges code -->
-            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttonwithbadge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253EAction%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttonnumber%2522%253E8%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522iconwithbadge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-home%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522iconbadge%2522%253E15%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%27badge-container%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-lg-size%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Favatars%252Favatar.jpg%2522%2520class%253D%2522img-responsive%2520img-round%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%27status-badge%2520status-badge-online%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%27badge-container%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-md-size%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Favatars%252Favatar.jpg%2522%2520class%253D%2522img-responsive%2520img-round%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-offline%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A" style="width: 839px; height: 485px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-            </iframe>
-
-            <!--button-->
-            <div id="button">
-                <div class="content-intro">
-                    Button element represents a clickable button, used to submit forms or anywhere in a document for accessible,
-                </div>
-                <div class="content-display-container btn-container">
-                    <button class="button">Button</button>
-                    <button class="secondary-btn link-btn">
-                        <a href="link">Link</a>
-                    </button>
-                    <button class="secondary-btn">
-                        <i class="fas fa-thumbs-up">Like</i>
-                    </button>
-                    <a href="#" class="plusicon">
-                        <i class="fas fa-plus" aria-hidden="true"></i>
-                    </a>
-                </div>
-            </div>
-
-            <!--button code -->
-            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253EButton%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522secondary-btn%2520link-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522link%2522%253ELink%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bookmark%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Bookmark%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522secondary-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Move%2520to%2520Wishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522plusicon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-plus-square%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A" style="width: 485px; height: 336px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-            </iframe>
-
-            <!--Image-->
-            <div id="image">
-                <div class="content-intro">
-                    Responsive images will automatically adjust to fit the size of the screen. Use the class responsiveimage.
-                </div>
-                <div class="content-display-container responsiveimage">
-                    <img src="/assets/responsiveimages.svg" class="img-responsive" />
-                </div>
-                <div class="content-intro">
-                    Use the class responsiveimageround to display round images
-                </div>
-                <div class="content-display-container responsiveimageround">
-                    <img class="img-round img-responsive" src="/assets/flower.jpg">
-                </div>
-            </div>
-
-            <!-- image code -->
-            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522content-display-container%2520responsiveimage%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fresponsiveimages.svg%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522content-display-container%2520responsiveimageround%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2520img-responsive%2522%2520src%253D%2522%252Fassets%252Fflower.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E" style="width: 704px; height: 169px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-            </iframe>
-
-            <!-- Cards -->
-            <div class="cards">
-                <div class="content-intro">
-                    To set any other text other than 'New' please enter the text in the badge class.
-                    Here 2 Action buttons are used 'Add to cart' and 'Move to Wishlist'.
-                </div>
-                <div class="content-display-container">
-                    <div class="main-card-container">
-                        <div class="card-horizontal">
-                            <div class="card-container-horizontal">
-                                <div class="image-badge-container">
-                                    <img src="/assets/cardimage.jpg">
-                                    <span class="badge">New</span>
+                        <div class="content-intro"></div>
+                        <div class="content-display-container">
+                            <div class="buttonwithbadge">
+                                <button class="button">Action</button>
+                                <div class="buttonnumber">8</div>
+                            </div>
+                            <div class="iconwithbadge">
+                                <i class="fa fa-home fa-2x"></i>
+                                <div class="iconbadge">15</div>
+                            </div>
+                            <div class='badge-container'>
+                                <div class="avatar avatar-lg-size">
+                                    <img src="/assets/avatars/avatar.jpg" class="img-responsive img-round" />
                                 </div>
-                                <div class="text-container">
-                                    <div class="sub-text-container">
-                                        <span class="content-title">Pink Dress</span>
-                                        <span class="sub-title">Girls Digital Printed Dress</span>
-                                        <small>Sold by: Lil Picks</small>
-                                        <div class="card-desc">
-                                            Green and blue printed frok, sleeveless
+                                <span class='status-badge status-badge-online'>
+                                </span>
+                                <div class='status-badge status-badge-online'>
+                                </div>
+                            </div>
+                            <div class='badge-container'>
+                                <div class="avatar avatar-md-size">
+                                    <img src="/assets/avatars/avatar.jpg" class="img-responsive img-round" />
+                                </div>
+                                <span class="status-badge status-badge-offline">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- status badges code -->
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttonwithbadge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253EAction%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttonnumber%2522%253E8%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522iconwithbadge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-home%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522iconbadge%2522%253E15%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%27badge-container%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-lg-size%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Favatars%252Favatar.jpg%2522%2520class%253D%2522img-responsive%2520img-round%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%27status-badge%2520status-badge-online%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%27badge-container%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-md-size%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Favatars%252Favatar.jpg%2522%2520class%253D%2522img-responsive%2520img-round%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-offline%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A" style="width: 839px; height: 485px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <!--button-->
+                    <div id="button">
+                        <div class="content-intro">
+                            Button element represents a clickable button, used to submit forms or anywhere in a document for accessible,
+                        </div>
+                        <div class="content-display-container btn-container">
+                            <div class="content-display-container">
+                                <button class="button">Button</button>
+                                <button class="secondary-btn link-btn">
+                                    <a href="link">Link</a>
+                                </button>
+                                <button class="secondary-btn">
+                                    <i class="fas fa-thumbs-up">Like</i>
+                                    <button class="icon-btn">
+                                        <i class="fa-solid fa-eject" aria-hidden="true"></i>
+                                        Bookmark
+                                    </button>
+                                    <button class="secondary-btn">
+                                        Move to Wishlist
+                                    </button>
+                                    <a href="#" class="plusicon">
+                                        <i class="fas fa-plus" aria-hidden="true"></i>
+                                    </a>
+                            </div>
+                        </div>
+
+                        <!--button code -->
+                        <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253EButton%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522secondary-btn%2520link-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522link%2522%253ELink%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bookmark%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Bookmark%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522secondary-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Move%2520to%2520Wishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522plusicon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-plus-square%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A" style="width: 485px; height: 336px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+
+                        <!--Image-->
+                        <div id="image">
+                            <div class="content-intro">
+                                Responsive images will automatically adjust to fit the size of the screen. Use the class responsiveimage.
+                            </div>
+                            <div class="content-display-container responsiveimage">
+                                <img src="/assets/responsiveimages.svg" class="img-responsive" />
+                            </div>
+                            <div class="content-intro">
+                                Use the class responsiveimageround to display round images
+                            </div>
+                            <div class="content-display-container responsiveimageround">
+                                <img class="img-round img-responsive" src="/assets/flower.jpg">
+                            </div>
+                        </div>
+
+                        <!-- image code -->
+                        <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522content-display-container%2520responsiveimage%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fresponsiveimages.svg%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522content-display-container%2520responsiveimageround%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2520img-responsive%2522%2520src%253D%2522%252Fassets%252Fflower.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E" style="width: 704px; height: 169px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+
+                        <!-- Cards -->
+                        <div class="cards">
+                            <div class="content-intro">
+                                To set any other text other than 'New' please enter the text in the badge class.
+                                Here 2 Action buttons are used 'Add to cart' and 'Move to Wishlist'.
+                            </div>
+                            <div class="content-display-container">
+                                <div class="main-card-container">
+                                    <div class="card-horizontal">
+                                        <div class="card-container-horizontal">
+                                            <div class="image-badge-container">
+                                                <img src="/assets/cardimage.jpg">
+                                                <span class="badge">New</span>
+                                            </div>
+                                            <div class="text-container">
+                                                <div class="sub-text-container">
+                                                    <span class="content-title">Pink Dress</span>
+                                                    <span class="sub-title">Girls Digital Printed Dress</span>
+                                                    <small>Sold by: Lil Picks</small>
+                                                    <div class="card-desc">
+                                                        Green and blue printed frok, sleeveless
+                                                    </div>
+                                                </div>
+                                                <div class="action-btn-container">
+                                                    <button><i class="fas fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+                                                    <button class="wish-btn">Move to Wishlist</button>
+                                                    <button class="secondary-btn">Move to Wishlist</button>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="action-btn-container">
-                                        <button><i class="fas fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
-                                        <button class="wish-btn">Move to Wishlist</button>
-                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br /><br />
-                    <div class="main-card-container">
-                        <div class="card-vertical">
-                            <div class="card-container-vertical">
-                                <div class="image-badge-container">
-                                    <img src="/assets/cardimage.jpg">
-                                    <span class="vertical-badge">New</span>
-                                </div>
-                                <div class="text-container">
-                                    <div class="sub-text-container">
-                                        <span class="content-title">Pink Dress</span>
-                                        <span class="sub-title">Girls Digital Printed Dress</span>
-                                        <small>Sold by: Lil Picks</small>
-                                        <div class="card-desc">
-                                            Green and blue printed frok, sleeveless
+                                <br /><br />
+                                <div class="main-card-container">
+                                    <div class="card-vertical">
+                                        <div class="card-container-vertical">
+                                            <div class="image-badge-container">
+                                                <img src="/assets/cardimage.jpg">
+                                                <span class="vertical-badge">New</span>
+                                            </div>
+                                            <div class="text-container">
+                                                <div class="sub-text-container">
+                                                    <span class="content-title">Pink Dress</span>
+                                                    <span class="sub-title">Girls Digital Printed Dress</span>
+                                                    <small>Sold by: Lil Picks</small>
+                                                    <div class="card-desc">
+                                                        Green and blue printed frok, sleeveless
+                                                    </div>
+                                                </div>
+                                                <div class="action-btn-container">
+                                                    <button><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="action-btn-container">
-                                        <button><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
-                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--card with dismiss icon-->
-                    <div class="main-card-container">
-                        <div class="card-vertical">
-                            <div class="card-container-vertical">
-                                <button class="btn-close"></button>
-                                <div class="image-badge-container">
-                                    <img src="/assets/cardimage.jpg">
-                                    <span class="vertical-badge">New</span>
-                                </div>
-                                <div class="text-container">
-                                    <div class="sub-text-container">
-                                        <span class="content-title">Pink Dress</span>
-                                        <span class="sub-title">Girls Digital Printed Dress</span>
-                                        <small>Sold by: Lil Picks</small>
-                                        <div class="card-desc">
-                                            Green and blue printed frok, sleeveless
+                                <!--card with dismiss icon-->
+                                <div class="main-card-container">
+                                    <div class="card-vertical">
+                                        <div class="card-container-vertical">
+                                            <button class="btn-close"></button>
+                                            <div class="image-badge-container">
+                                                <img src="/assets/cardimage.jpg">
+                                                <span class="vertical-badge">New</span>
+                                            </div>
+                                            <div class="text-container">
+                                                <div class="sub-text-container">
+                                                    <span class="content-title">Pink Dress</span>
+                                                    <span class="sub-title">Girls Digital Printed Dress</span>
+                                                    <small>Sold by: Lil Picks</small>
+                                                    <div class="card-desc">
+                                                        Green and blue printed frok, sleeveless
+                                                    </div>
+                                                </div>
+                                                <div class="action-btn-container">
+                                                    <button><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="action-btn-container">
-                                        <button><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
-                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="main-card-container">
-                        <div class="card-vertical">
-                            <div class="card-container-vertical">
-                                <button class="btn-close"></button>
-                                <div class="image-badge-container">
-                                    <img src="/assets/cardimage.jpg">
-                                    <span class="vertical-badge">New</span>
-                                </div>
-                                <div class="text-container">
-                                    <div class="sub-text-container">
-                                        <span class="content-title">Pink Dress</span>
-                                        <span class="sub-title">Girls Digital Printed Dress</span>
-                                        <small>Sold by: Lil Picks</small>
-                                        <div class="card-desc">
-                                            Green and blue printed frok, sleeveless
+                                <div class="main-card-container">
+                                    <div class="card-vertical">
+                                        <div class="card-container-vertical">
+                                            <button class="btn-close"></button>
+                                            <div class="image-badge-container">
+                                                <img src="/assets/cardimage.jpg">
+                                                <span class="vertical-badge">New</span>
+                                            </div>
+                                            <div class="text-container">
+                                                <div class="sub-text-container">
+                                                    <span class="content-title">Pink Dress</span>
+                                                    <span class="sub-title">Girls Digital Printed Dress</span>
+                                                    <small>Sold by: Lil Picks</small>
+                                                    <div class="card-desc">
+                                                        Green and blue printed frok, sleeveless
+                                                    </div>
+                                                </div>
+                                                <div class="action-btn-container">
+                                                    <button><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="overlay-text">
+                                                <div class="outOfStock">OUT OF STOCK</div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="action-btn-container">
-                                        <button><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
-                                    </div>
                                 </div>
-                                <div class="overlay-text">
-                                    <div class="outOfStock">OUT OF STOCK</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- card with shadow -->
-                    <div class="main-card-container">
-                        <div class="card-vertical">
-                            <div class="card-container-vertical  card-with-shadow">
-                                <button class="btn-close"></button>
-                                <div class="image-badge-container">
-                                    <img src="/assets/cardimage.jpg">
-                                    <span class="vertical-badge">New</span>
-                                </div>
-                                <div class="text-container">
-                                    <div class="sub-text-container">
-                                        <span class="content-title">Pink Dress</span>
-                                        <span class="sub-title">Girls Digital Printed Dress</span>
-                                        <small>Sold by: Lil Picks</small>
-                                        <div class="card-desc">
-                                            Green and blue printed frok, sleeveless
+                                <!-- card with shadow -->
+                                <div class="main-card-container">
+                                    <div class="card-vertical">
+                                        <div class="card-container-vertical  card-with-shadow">
+                                            <button class="btn-close"></button>
+                                            <div class="image-badge-container">
+                                                <img src="/assets/cardimage.jpg">
+                                                <span class="vertical-badge">New</span>
+                                            </div>
+                                            <div class="text-container">
+                                                <div class="sub-text-container">
+                                                    <span class="content-title">Pink Dress</span>
+                                                    <span class="sub-title">Girls Digital Printed Dress</span>
+                                                    <small>Sold by: Lil Picks</small>
+                                                    <div class="card-desc">
+                                                        Green and blue printed frok, sleeveless
+                                                    </div>
+                                                </div>
+                                                <div class="action-btn-container">
+                                                    <button><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="action-btn-container">
-                                        <button><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                            <!--Basic Text Card-->
+                            <div class="content-display-container">
+                                <div class="card-text-container">
+                                    <h3 class="card-content-title">Card Sample Title</h3>
+                                    <div class="card">
+                                        <div class="card-sub-title">Basic card</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!--Basic Text Card-->
-                <div class="content-display-container">
-                    <div class="card-text-container">
-                        <h3 class="card-content-title">Card Sample Title</h3>
-                        <div class="card">
-                            <div class="card-sub-title">Basic card</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- card code horizontal-->
-            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522cards%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522content-display-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcardimage.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sub-text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522content-title%2522%253EPink%2520Dress%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522sub-title%2522%253EGirls%2520Digital%2520Printed%2520Dress%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253ESold%2520by%253A%2520Lil%2520Picks%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Green%2520and%2520blue%2520printed%2520frok%252C%2520sleeveless%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522action-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522secondary-btn%2522%253EMove%2520to%2520Wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520" style="width: 1016px; height: 559px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-            </iframe>
+                        <!-- card code horizontal-->
+                        <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522cards%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522content-display-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcardimage.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sub-text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522content-title%2522%253EPink%2520Dress%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522sub-title%2522%253EGirls%2520Digital%2520Printed%2520Dress%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253ESold%2520by%253A%2520Lil%2520Picks%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Green%2520and%2520blue%2520printed%2520frok%252C%2520sleeveless%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522action-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522secondary-btn%2522%253EMove%2520to%2520Wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520" style="width: 1016px; height: 559px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
 
-            <!-- card code vertical -->
-            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2509%2509%2509%2509%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-vertical%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-close%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcardimage.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522vertical-badge%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sub-text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522content-title%2522%253EPink%2520Dress%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522sub-title%2522%253EGirls%2520Digital%2520Printed%2520Dress%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253ESold%2520by%253A%2520Lil%2520Picks%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Green%2520and%2520blue%2520printed%2520frok%252C%2520sleeveless%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522action-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outOfStock%2522%253EOUT%2520OF%2520STOCK%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520" style="width: 1016px; height: 657px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-            </iframe>
+                        <!-- card code vertical -->
+                        <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2509%2509%2509%2509%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-vertical%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-close%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcardimage.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522vertical-badge%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sub-text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522content-title%2522%253EPink%2520Dress%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522sub-title%2522%253EGirls%2520Digital%2520Printed%2520Dress%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253ESold%2520by%253A%2520Lil%2520Picks%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Green%2520and%2520blue%2520printed%2520frok%252C%2520sleeveless%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522action-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outOfStock%2522%253EOUT%2520OF%2520STOCK%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520" style="width: 1016px; height: 657px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
 
-            <!-- text card -->
-            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2509%2509%2509%2509%253Cdiv%2520class%253D%2522card-text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-content-title%2522%253ECard%2520Sample%2520Title%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-sub-title%2522%253EBasic%2520card%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520" style="width: 637px; height: 187px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-            </iframe>
+                        For card shadow use this class in paren card-with-shadow
 
-            <!--Form-->
-            <div id="form">
-                <div class="content-intro">
-                    Use required-field class to set the field as required. The field would be marked with *.
-                    Use disabled class to disable the form field.
-                </div>
-                <div class="content-display-container">
-                    <div class="form-container">
-                        <div class="form-field">
-                            <label for="Student">Name</label>
-                            <input type="text" name="Student" id="Student" />
-                        </div>
-                        <div class="form-field">
-                            <label for="Student" class="required-field">Name</label>
-                            <input type="text" name="Student" id="Student" />
-                        </div>
-                    </div>
-                </div>
-                <div class="content-display-container">
-                    <div class="form-container">
-                        <div class="form-field">
-                            <input type="text" name="Student" id="Student" placeholder="Disabled input" disabled />
-                        </div>
-                        <div class="form-field">
-                            <input type="text" name="Student" id="Student" placeholder="Readonly input" readonly />
-                        </div>
-                        <div class="form-field form-field-error">
-                            <label for="password" class="required-field">Password </label>
-                            <input type="password" name="password" autocomplete="current-password" placeholder="enter password" required value="..." />
-                            wrong password, try again
-                        </div>
-                    </div>
-                </div>
+                        <!-- text card -->
+                        <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2509%2509%2509%2509%253Cdiv%2520class%253D%2522card-text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-content-title%2522%253ECard%2520Sample%2520Title%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-sub-title%2522%253EBasic%2520card%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520" style="width: 637px; height: 187px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
 
-                <!--Example of Form validation-->
-                <div class="content-display-container">
-                    <form id="submit-form" class="submit-form form-container">
-                        <div class="form-field">
-                            <label for="name" class="required-field">Name</label>
-                            <input type="text" name="name" id="name" />
-                        </div>
-                        <div class="form-field">
-                            <label for="phoneno" class="required-field">Phoneno</label>
-                            <input type="text" name="phoneno" id="phoneno" pattern="[0-9]{10}" required />
-                            <div class="form-field" id="form-field-error">
-                                Phoneno is invalid
+                        <!--Form-->
+                        <div id="form">
+                            <div class="content-intro">
+                                Use required-field class to set the field as required. The field would be marked with *.
+                                Use disabled class to disable the form field.
                             </div>
-                            <div class="form-field" id="form-field-success">
-                                Phoneno is valid
+                            <div class="content-display-container">
+                                <div class="form-container">
+                                    <div class="form-field">
+                                        <label for="Student">Name</label>
+                                        <input type="text" name="Student" id="Student" />
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="Student" class="required-field">Name</label>
+                                        <input type="text" name="Student" id="Student" />
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <button class="btn btn-outline-primary btn-sm-size" type="submit">Submit</button>
-                    </form>
-                </div>
-            </div>
-
-            <!-- Form code -->
-            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2509%2509%253Cform%2520id%253D%2522submit-form%2522%2520class%253D%2522submit-form%2520form-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EName*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520id%253D%2522name%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522phoneno%2522%253EPhoneno*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522phoneno%2522%2520id%253D%2522phoneno%2522%2520pattern%253D%2522%255B0-9%255D%257B10%257D%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-field%2522%2520id%253D%2522form-field-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Phoneno%2520is%2520invalid%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-field%2522%2520id%253D%2522form-field-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Phoneno%2520is%2520valid%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2520btn-sm-size%2522%2520type%253D%2522submit%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A" style="width: 881px; height: 392px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-            </iframe>
-
-            <!--Toast-->
-            <div id="toast">
-                <div class="content-display-container">
-                    <div class="toast toast-success" id="toast-success">
-                        Saved!
-                        <i class='fa fa-close toastcloseicon' id="toast-close-btn"></i>
-                    </div>
-                    <div class="toast toast-error">
-                        Not Saved! Try again later
-                        <i class='fa fa-close toastcloseicon' id="toast-close-btn"></i>
-                    </div>
-                    <div class="toast toast-inform">
-                        Saving to server
-                        <i class='fa fa-close toastcloseicon' id="toast-close-btn"></i>
-                    </div>
-                    <p class="content-title">
-                    <div class="toast toast-success" id="toast-success-demo">
-                        Saved!
-                        <i class='fa fa-close toastcloseicon' id="toast-close-btn"></i>
-                    </div>
-                    <button id="toast-btn" class="show-toast-example-btn" onclick="showToastMessage()">Show Toast</button>
-                    </p>
-                </div>
-            </div>
-
-            <!-- Toast code -->
-            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2509%2509%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%2520id%253D%2522toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Saved%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-close%2520toastcloseicon%27%2520id%253D%2522toast-close-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Not%2520Saved%21%2520Try%2520again%2520later%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-close%2520toastcloseicon%27%2520id%253D%2522toast-close-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-inform%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Saving%2520to%2520server%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-close%2520toastcloseicon%27%2520id%253D%2522toast-close-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E" style="width: 738px; height: 297px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-            </iframe>
-
-
-            <!-- Rating container -->
-            <div class="rating">
-                <div class="content-display-container">
-                    <div class="rating-container">
-                        <label>
-                            <input class="rating-star-input" type="checkbox">
-                            <i class="fa fa-star rating-star-icon"></i>
-                        </label>
-                        <label>
-                            <input class="rating-star-input" type="checkbox">
-                            <i class="fa fa-star rating-star-icon"></i>
-                        </label>
-                        <label>
-                            <input class="rating-star-input" type="checkbox" checked>
-                            <i class="fa fa-star rating-star-icon"></i>
-                        </label>
-                        <label>
-                            <input class="rating-star-input" type="checkbox" checked>
-                            <i class="fa fa-star rating-star-icon"></i>
-                        </label>
-                        <label>
-                            <input class="rating-star-input" type="checkbox" checked>
-                            <i class="fa fa-star rating-star-icon"></i>
-                        </label>
-
-                    </div>
-                </div>
-
-                <!-- rating static code -->
-                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%2509%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520checked%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520" style="width: 704px; height: 224px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-
-                <!-- Rating Demo -->
-                <div class="content-display-container">
-                    <div class="rating-container">
-                        <form class="example-rating-form">
-                            <h3>Rate our service</h3>
-                            <div class="rating-star-container">
-                                <label>
-                                    <input class="rating-star-input" type="checkbox">
-                                    <i class="fa fa-star rating-star-icon"></i>
-                                </label>
-                                <label>
-                                    <input class="rating-star-input" type="checkbox">
-                                    <i class="fa fa-star rating-star-icon"></i>
-                                </label>
-                                <label>
-                                    <input class="rating-star-input" type="checkbox">
-                                    <i class="fa fa-star rating-star-icon"></i>
-                                </label>
-                                <label>
-                                    <input class="rating-star-input" type="checkbox">
-                                    <i class="fa fa-star rating-star-icon"></i>
-                                </label>
-                                <label>
-                                    <input class="rating-star-input" type="checkbox">
-                                    <i class="fa fa-star rating-star-icon"></i>
-                                </label>
+                            <div class="content-display-container">
+                                <div class="form-container">
+                                    <div class="form-field">
+                                        <input type="text" name="Student" id="Student" placeholder="Disabled input" disabled />
+                                    </div>
+                                    <div class="form-field">
+                                        <input type="text" name="Student" id="Student" placeholder="Readonly input" readonly />
+                                    </div>
+                                    <div class="form-field form-field-error">
+                                        <label for="password" class="required-field">Password </label>
+                                        <input type="password" name="password" autocomplete="current-password" placeholder="enter password" required value="..." />
+                                        wrong password, try again
+                                        <label for="password">Password *
+                                            <input type="password" name="password" autocomplete="current-password" placeholder="enter password" required value="..." />
+                                            wrong password, try again
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                            <button class="btn btn-solid-primary">Submit</button>
-                        </form>
-                        <div class="rating-example-number-show"></div>
-                    </div>
-                </div>
 
-                <!-- rating demo code -->
-                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520class%253D%2522example-rating-form%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ERate%2520our%2520service%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-star-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-solid-primary%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-example-number-show%2522%253E%253C%252Fdiv%253E%250A" style="width: 704px; height: 578px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-
-            <!--Modal-->
-            <div id="modal">
-                <div class="content-display-container">
-                    <div class="rating-modal">
-                        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-                        <div class="modal-content">
-                            <h1 class="modal-content-title">
-                                Diwali Offers
-                            </h1>
-                            <h1 class="modal-subcontent-title">
-                                Buy 3 salwars for Rs 1000/-
-                            </h1>
-                            <div class="modal-CTA-Container">
-                                <button>Go Back</button>
-                                <button>Add To Bag</button>
+                            <!--Example of Form validation-->
+                            <div class="content-display-container">
+                                <form id="submit-form" class="submit-form form-container">
+                                    <div class="form-field">
+                                        <label for="name" class="required-field">Name</label>
+                                        <input type="text" name="name" id="name" />
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="phoneno" class="required-field">Phoneno</label>
+                                        <label for="name">Name*</label>
+                                        <input type="text" name="name" id="name" />
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="phoneno">Phoneno*</label>
+                                        <input type="text" name="phoneno" id="phoneno" pattern="[0-9]{10}" required />
+                                        <div class="form-field" id="form-field-error">
+                                            Phoneno is invalid
+                                        </div>
+                                        <div class="form-field" id="form-field-success">
+                                            Phoneno is valid
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-outline-primary btn-sm-size" type="submit">Submit</button>
+                                </form>
                             </div>
                         </div>
-                    </div>
-                </div>
 
-                <!--Demo modal-->
-                <div class="content-display-container">
-                    <button id="openModal">Open Modal</button>
-                    <div class="rating-demo-modal" id="rating-demo-modal">
-                        <div class="modal-demo-content">
-                            <span class="closebtn" id="modal-close-btn" onclick="this.parentElement.style.display='none';">&times;</span>
-                            <h1 class="modal-content-title">
-                                Diwali Offers
-                            </h1>
-                            <h1 class="modal-subcontent-title">
-                                Buy 3 salwars for Rs 1000/-
-                            </h1>
-                            <div class="modal-CTA-Container">
-                                <button>Go Back</button>
-                                <button>Add To Bag</button>
+                        <!-- Form code -->
+                        <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2509%2509%253Cform%2520id%253D%2522submit-form%2522%2520class%253D%2522submit-form%2520form-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EName*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520id%253D%2522name%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522phoneno%2522%253EPhoneno*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522phoneno%2522%2520id%253D%2522phoneno%2522%2520pattern%253D%2522%255B0-9%255D%257B10%257D%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-field%2522%2520id%253D%2522form-field-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Phoneno%2520is%2520invalid%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-field%2522%2520id%253D%2522form-field-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Phoneno%2520is%2520valid%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2520btn-sm-size%2522%2520type%253D%2522submit%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A" style="width: 881px; height: 392px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+
+                        <!--Toast-->
+                        <div id="toast">
+                            <div class="content-display-container">
+                                <div class="toast toast-success" id="toast-success">
+                                    Saved!
+                                    <i class='fa fa-close toastcloseicon' id="toast-close-btn"></i>
+                                </div>
+                                <div class="toast toast-error">
+                                    Not Saved! Try again later
+                                    <i class='fa fa-close toastcloseicon' id="toast-close-btn"></i>
+                                </div>
+                                <div class="toast toast-inform">
+                                    Saving to server
+                                    <i class='fa fa-close toastcloseicon' id="toast-close-btn"></i>
+                                </div>
+                                <p class="content-title">
+                                <div class="toast toast-success" id="toast-success-demo">
+                                    Saved!
+                                    <i class='fa fa-close toastcloseicon' id="toast-close-btn"></i>
+                                </div>
+                                <button id="toast-btn" class="show-toast-example-btn" onclick="showToastMessage()">Show Toast</button>
+                                <button id="toast-btn" class="show-toast-example-btn" onclick="myFunction()">Show Toast</button>
+                                </p>
                             </div>
                         </div>
+
+                        <!-- Toast code -->
+                        <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2509%2509%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%2520id%253D%2522toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Saved%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-close%2520toastcloseicon%27%2520id%253D%2522toast-close-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Not%2520Saved%21%2520Try%2520again%2520later%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-close%2520toastcloseicon%27%2520id%253D%2522toast-close-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-inform%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Saving%2520to%2520server%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-close%2520toastcloseicon%27%2520id%253D%2522toast-close-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E" style="width: 738px; height: 297px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+
+
+                        <!-- Rating container -->
+                        <div class="rating">
+                            <div class="content-display-container">
+                                <div class="rating-container">
+                                    <label>
+                                        <input class="rating-star-input" type="checkbox">
+                                        <i class="fa fa-star rating-star-icon"></i>
+                                    </label>
+                                    <label>
+                                        <input class="rating-star-input" type="checkbox">
+                                        <i class="fa fa-star rating-star-icon"></i>
+                                    </label>
+                                    <label>
+                                        <input class="rating-star-input" type="checkbox" checked>
+                                        <i class="fa fa-star rating-star-icon"></i>
+                                    </label>
+                                    <label>
+                                        <input class="rating-star-input" type="checkbox" checked>
+                                        <i class="fa fa-star rating-star-icon"></i>
+                                    </label>
+                                    <label>
+                                        <input class="rating-star-input" type="checkbox" checked>
+                                        <i class="fa fa-star rating-star-icon"></i>
+                                    </label>
+
+                                </div>
+                            </div>
+
+                            <!-- rating static code -->
+                            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%2509%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520checked%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520" style="width: 704px; height: 224px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+
+                            <!-- Rating Demo -->
+                            <div class="content-display-container">
+                                <div class="rating-container">
+                                    <form class="example-rating-form">
+                                        <h3>Rate our service</h3>
+                                        <div class="rating-star-container">
+                                            <label>
+                                                <input class="rating-star-input" type="checkbox">
+                                                <i class="fa fa-star rating-star-icon"></i>
+                                            </label>
+                                            <label>
+                                                <input class="rating-star-input" type="checkbox">
+                                                <i class="fa fa-star rating-star-icon"></i>
+                                            </label>
+                                            <label>
+                                                <input class="rating-star-input" type="checkbox">
+                                                <i class="fa fa-star rating-star-icon"></i>
+                                            </label>
+                                            <label>
+                                                <input class="rating-star-input" type="checkbox">
+                                                <i class="fa fa-star rating-star-icon"></i>
+                                            </label>
+                                            <label>
+                                                <input class="rating-star-input" type="checkbox">
+                                                <i class="fa fa-star rating-star-icon"></i>
+                                            </label>
+                                        </div>
+                                        <button class="btn btn-solid-primary">Submit</button>
+                                    </form>
+                                    <div class="rating-example-number-show"></div>
+                                </div>
+                            </div>
+
+                            <!-- rating demo code -->
+                            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520class%253D%2522example-rating-form%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ERate%2520our%2520service%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-star-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-solid-primary%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-example-number-show%2522%253E%253C%252Fdiv%253E%250A" style="width: 704px; height: 578px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+
+                        <!--Modal-->
+                        <div id="modal">
+                            <div class="content-display-container">
+                                <div class="rating-modal">
+                                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                                    <div class="modal-content">
+                                        <h1 class="modal-content-title">
+                                            Diwali Offers
+                                        </h1>
+                                        <h1 class="modal-subcontent-title">
+                                            Buy 3 salwars for Rs 1000/-
+                                        </h1>
+                                        <div class="modal-CTA-Container">
+                                            <button>Go Back</button>
+                                            <button>Add To Bag</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Demo modal-->
+                            <div class="content-display-container">
+                                <button id="openModal">Open Modal</button>
+                                <div class="rating-demo-modal" id="rating-demo-modal">
+                                    <div class="modal-demo-content">
+                                        <span class="closebtn" id="modal-close-btn" onclick="this.parentElement.style.display='none';">&times;</span>
+                                        <h1 class="modal-content-title">
+                                            Diwali Offers
+                                        </h1>
+                                        <h1 class="modal-subcontent-title">
+                                            Buy 3 salwars for Rs 1000/-
+                                        </h1>
+                                        <div class="modal-CTA-Container">
+                                            <button>Go Back</button>
+                                            <button>Add To Bag</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Demo modal code -->
+                            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2509%2509%2509%253Cdiv%2520class%253D%2522rating-modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522closebtn%2522%2520onclick%253D%2522this.parentElement.style.display%253D%27none%27%253B%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522modal-content-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Diwali%2520Offers%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522modal-subcontent-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Buy%25203%2520salwars%2520for%2520Rs%25201000%252F-%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-CTA-Container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EGo%2520Back%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EAdd%2520To%2520Bag%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A" style="width: 931px; height: 355px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                        <div class="footer">
+                            <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by Simrin Joshi</p>
+                            <ul class="footer-social-links">
+                                <a href="https://github.com/simrin051" target="_blank">
+                                    <li class="social-link fa fa-github"></li>
+                                </a>
+                                <a href="https://www.linkedin.com/in/simrin-joshi-b8881818a/" target="_blank">
+                                    <li class="social-link fa fa-linkedin"></li>
+                                </a>
+                                <a href="mailto:simrinjoshi@yahoo.com" target="_blank">
+                                    <li class="social-link fa fa-envelope"></li>
+                                </a>
+                            </ul>
+                        </div>
                     </div>
+
                 </div>
-
-                <!-- Demo modal code -->
-                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2509%2509%2509%253Cdiv%2520class%253D%2522rating-modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522closebtn%2522%2520onclick%253D%2522this.parentElement.style.display%253D%27none%27%253B%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522modal-content-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Diwali%2520Offers%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522modal-subcontent-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Buy%25203%2520salwars%2520for%2520Rs%25201000%252F-%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-CTA-Container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EGo%2520Back%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EAdd%2520To%2520Bag%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A" style="width: 931px; height: 355px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <div class="footer">
-                <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by Simrin Joshi</p>
-                <ul class="footer-social-links">
-                    <a href="https://github.com/simrin051" target="_blank">
-                        <li class="social-link fa fa-github"></li>
-                    </a>
-                    <a href="https://www.linkedin.com/in/simrin-joshi-b8881818a/" target="_blank">
-                        <li class="social-link fa fa-linkedin"></li>
-                    </a>
-                    <a href="mailto:simrinjoshi@yahoo.com" target="_blank">
-                        <li class="social-link fa fa-envelope"></li>
-                    </a>
-                </ul>
-            </div>
-        </div>
-
-    </div>
-    <script type="text/javascript" src="docs.js"></script>
+                <script type="text/javascript" src="docs.js"></script>
 </body>
 
 </html>

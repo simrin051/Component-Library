@@ -1,0 +1,64 @@
+.container-alerts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  --alert-warning: #f9e076;
+  --alert-success: #00A86B;
+  --alert-error: #ff6347;
+  --alert-text: black;
+}
+
+.alert-icon i {
+  color: var(--alert-text);
+  border: none;
+}
+
+.alert-box {
+  padding: 30px;
+  margin-top: 5px;
+  white-space: nowrap;
+  display: block;
+  width: 90vw;
+}
+
+.alert-box.alert-warning {
+  background-color: var(--alert-warning);
+  color: var(--alert-text);
+}
+
+.alert-box.alert-success {
+  background-color: var(--alert-success);
+  color: var(--alert-text);
+}
+
+.alert-box.alert-error {
+  background-color: var(--alert-error);
+  color: var(--alert-text);
+}
+
+/* The close button */
+.closebtn {
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 2em;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  right: 0px;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+  .alert-box {
+    padding: 5px;
+  }
+
+  .container-alerts {
+    margin: auto;
+  }
+}
