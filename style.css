@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    font-size: 22px;
+    font-size: 1.375rem;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -60,7 +60,7 @@ a {
 }
 
 .floral {
-    max-width: 300px;
+    max-width: 18.75rem;
     margin-top: 3rem;
 }
 
@@ -104,12 +104,12 @@ a {
 }
 
 .content-display-container.responsiveimage {
-    max-height: 300px;
+    max-height: 18.75rem;
 }
 
 .content-display-container.responsiveimageround {
-    max-height: 400px;
-    width: 300px;
+    max-height: 25rem;
+    width: 18.75rem;
 }
 
 .action_btn {
@@ -177,9 +177,9 @@ a {
     .leftPanel {
         font-size: 1.5em;
         box-sizing: border-box;
-        width: 100% !important;
-        padding: 0px !important;
-        margin: 0px !important;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
         flex-shrink: 0;
     }
 
@@ -197,8 +197,8 @@ a {
 
     .rightPanel .floral {
         margin-top: 8rem;
-        max-width: 300px;
-        max-height: 300px;
+        max-width: 18.75rem;
+        max-height: 18.75rem;
     }
 
     .social-links {
@@ -221,7 +221,7 @@ a {
 
     .hamburger {
         display: none;
-        font-size: 24px;
+        font-size: 1.5rem;
         user-select: none;
     }
 
@@ -229,7 +229,7 @@ a {
         color: var(--primary-color) !important;
         padding: 8px 8px 8px 32px;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 1.25rem;
         display: block;
         transition: 0.3s;
     }
@@ -241,9 +241,9 @@ a {
     .sidenav .closebtn {
         position: absolute;
         top: 0;
-        right: 25px;
-        margin-left: 50px;
-        font-size: 36px;
+        right: 1.563rem;
+        margin-left: 3.125rem;
+        font-size: 2.25rem;
     }
 
     .sidenav {
@@ -255,7 +255,7 @@ a {
         z-index: 1;
         top: 0;
         left: 0;
-        padding-top: 60px;
+        padding-top: 3.75rem;
 
         background-color: #111;
         overflow-x: hidden;
@@ -270,9 +270,9 @@ a {
     .sidenav .closebtn {
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
+        right: 1.563rem;
+        font-size: 2.25rem;
+        margin-left: 3.125rem;
     }
 
     .navIcon {
@@ -289,7 +289,7 @@ a {
 
     iframe {
         max-width: 80vw;
-        max-height: 200px;
+        max-height: 12.5rem;
         padding-left: 0;
     }
 }
