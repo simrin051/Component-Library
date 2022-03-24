@@ -1,0 +1,48 @@
+@import url("../style.css");
+@import url("../components/alerts/alerts.css");
+@import url("../components/avatar/avatar.css");
+@import url("../components/button/button.css");
+@import url("../components/badge/badge.css");
+@import url("../components/image/image.css");
+@import url("../components/card/card.css");
+@import url("../components/forms/form.css");
+@import url("../components/toast/toast.css");
+@import url("../components/rating/rating.css");
+@import url("../components/modal/modal.css");
+@import url("../shared/footer/footer.css");
+@import url("../shared/header/header.css");
+
+.main {
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .content-intro {
+        width: 80vw;
+        padding: 5px;
+        margin: 0px;
+
+    }
+
+    .content-display-container {
+        font-size: 15px;
+        width: 90vw !important;
+        padding: 5px;
+        margin: 0px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    iframe {
+        max-width: 90vw !important;
+        max-height: 200px;
+        padding: 5px;
+        overflow: auto;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
