@@ -12,8 +12,75 @@
 @import url("../shared/footer/footer.css");
 @import url("../shared/header/header.css");
 
+.parent-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.sidebar {
+    /**   
+    left: 0px;
+    width: 20vw;
+    background-color: aqua;
+    height: calc(100vh - 4rem);
+    overflow: scroll;
+    margin-top: 2rem;
+    overflow-y: auto;
+    position: sticky;
+**/
+    position: sticky;
+
+    height: 100vh;
+    top: 2rem;
+    left: 0px;
+    bottom: 5px;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+
+    box-shadow: 0 0 6px #000;
+    color: #fff;
+}
+
+.sidebar-nav-links {
+
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-nav-links li {
+    margin-bottom: 10px;
+    height: 3rem;
+    width: 10rem;
+    list-style: none;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.sidebar-nav-links li:hover {
+    background-color: #D3D3D3;
+}
+
+.sidebar-nav-link {
+    text-decoration: none;
+    width: 100%;
+    position: relative;
+}
+
 .main {
-    margin-left: 5px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    max-width: 80vw;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.navbar-heading {
+    color: var(--primary-color);
+    font-size: 22px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1024px) {

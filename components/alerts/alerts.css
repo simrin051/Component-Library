@@ -1,6 +1,7 @@
 .container-alerts {
   display: flex;
   flex-direction: column;
+  width: 100%;
   justify-content: space-around;
   --alert-warning: #f9e076;
   --alert-success: #00A86B;
@@ -18,7 +19,7 @@
   margin-top: 5px;
   white-space: nowrap;
   display: block;
-  width: 90vw;
+  flex: 1;
 }
 
 .alert-box.alert-warning {
