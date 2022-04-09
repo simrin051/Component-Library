@@ -16,10 +16,10 @@ a.plusicon {
     text-decoration: none;
 }
 
-i {
+button i {
     color: var(--primary-color);
     text-decoration: none;
-    border: 1px solid black;
+    border: none;
 
 }
 
