@@ -46,9 +46,11 @@ a:link {
 
 .secondary-btn {
     border-style: solid;
-    border-color: #21B6A8;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
     background-color: black;
     border-radius: 10px;
+    max-width: fit-content;
 }
 
 .ternary-btn {
