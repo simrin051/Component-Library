@@ -4,12 +4,13 @@
 :root {
     --primary-color: #21B6A8;
     --secondary-color: white;
-    background-color: black;
+    --background-color: black;
     font-family: "Roboto";
 }
 
 html {
     scroll-behavior: smooth;
+    background-color: var(--background-color);
 }
 
 body {
@@ -129,7 +130,7 @@ a {
 
 .installation a {
     background-color: var(--primary-color);
-    color: black;
+    color: var(--background-color);
 }
 
 .installation-content {
@@ -139,7 +140,7 @@ a {
 
 .documentation a {
     background-color: var(--primary-color);
-    color: black;
+    color: var(--background-color);
 }
 
 .heartIcon {
@@ -215,7 +216,7 @@ a {
         margin-top: 15rem;
     }
 
-    input[type=checkbox] {
+    .rating-star-input {
         display: none;
     }
 
