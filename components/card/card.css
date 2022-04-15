@@ -63,8 +63,9 @@
     position: relative;
 }
 
-.card-vertical .card-container-horizontal {
-    max-width: 210px;
+.card-horizontal .card-container-horizontal {
+    min-width: 19.8125rem;
+    max-width: 30rem;
     max-height: 500px;
 
 }
