@@ -104,7 +104,7 @@ a {
     margin-right: 2rem;
 }
 
-.content-display-container.responsiveimage {
+.content-display-container.responsiveimage img{
     max-height: 18.75rem;
 }
 

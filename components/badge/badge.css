@@ -24,6 +24,7 @@
 .iconwithbadge {
   position: relative;
   display: inline-block;
+  color: var(--primary-color);
 }
 
 .buttonnumber {
@@ -48,6 +49,7 @@
   top: -4px;
   left: 1rem;
   background-color: var(--primary-color);
+  color: black;
   border-radius: 50%;
   width: 1.563rem;
   height: 1.563rem;

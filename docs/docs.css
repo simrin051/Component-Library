@@ -39,7 +39,6 @@
     display: flex;
     flex-direction: column;
     overflow: scroll;
-
     box-shadow: 0 0 6px #000;
     color: #fff;
 }
@@ -84,6 +83,11 @@
 }
 
 @media only screen and (max-width: 1024px) {
+
+    .sidebar {
+        width: 60vw;
+    }
+
     .content-intro {
         width: 80vw;
         padding: 5px;
